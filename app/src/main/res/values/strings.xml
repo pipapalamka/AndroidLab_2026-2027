@@ -1,6 +1,3 @@
 <resources>
-    <string name="app_name">HW1</string>
-    <string name="fio">Кожевников Павел</string>
-    <string name="group">11-504</string>
-    <string name="open_second_screen">Открыть</string>
+    <string name="app_name">HW2</string>
 </resources>
