@@ -1,3 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">CW1</string>
+    <string name="app_name">Уведомления</string>
+    <string name="second_screen_title">Координаты</string>
+    <string name="permission_warning">Для нормальной работы приложения нужно предоставить разрешение на показ уведомлений.</string>
+    <string name="open_settings">Открыть настройки приложения</string>
+
+    <string name="title_input_label">Заголовок уведомления</string>
+    <string name="hint_notification_title">Введите заголовок</string>
+    <string name="text_input_label">Текст уведомления</string>
+    <string name="hint_notification_text">Введите текст уведомления</string>
+    <string name="non_cancellable">Сделать уведомление неотменяемым</string>
+    <string name="importance_label">Важность уведомления</string>
+    <string name="send_notification">Отправить уведомление</string>
+    <string name="open_second_screen">Открыть второй экран</string>
+
+    <string-array name="importance_options">
+        <item>Min</item>
+        <item>Default</item>
+        <item>High</item>
+    </string-array>
+
+    <string name="optional_section">Дополнительно</string>
+    <string name="active_ids">Активные уведомления: %1$s</string>
+    <string name="active_ids_separator">", "</string>
+    <string name="no_active_notifications">Активных уведомлений нет</string>
+    <string name="hint_notification_id">ID уведомления</string>
+    <string name="edit_notification">Редактировать</string>
+    <string name="delete_notification">Удалить</string>
+    <string name="delete_all_notifications">Удалить все</string>
+
+    <string name="fill_title_and_text">Заполните заголовок и текст уведомления</string>
+    <string name="notification_sent">Уведомление отправлено, id: %1$d</string>
+    <string name="notification_updated">Уведомление с id %1$d обновлено</string>
+    <string name="notification_deleted">Уведомление с id %1$d удалено</string>
+    <string name="all_notifications_deleted">Все уведомления удалены</string>
+    <string name="enter_notification_id">Введите id уведомления</string>
+    <string name="invalid_notification_id">Некорректный id уведомления</string>
+    <string name="notification_not_found">Активное уведомление с таким id не найдено</string>
+
+    <string name="channel_min_name">Минимальная важность</string>
+    <string name="channel_min_description">Тихие уведомления без звука</string>
+    <string name="channel_default_name">Обычная важность</string>
+    <string name="channel_default_description">Обычные уведомления со звуком</string>
+    <string name="channel_high_name">Высокая важность</string>
+    <string name="channel_high_description">Важные уведомления с всплывающим окном</string>
+
+    <string name="location_hint">Для определения координат нажмите на кнопку</string>
+    <string name="get_location">Определить координаты</string>
+    <string name="location_searching">Определение координат…</string>
+    <string name="location_permission_denied">Разрешение на доступ к геолокации не предоставлено. Предоставьте его в настройках приложения.</string>
+    <string name="location_unavailable">Не удалось определить координаты. Проверьте, включена ли геолокация.</string>
+    <string name="location_result">Широта: %1$.6f\nДолгота: %2$.6f</string>
+    <string name="back">Назад</string>
 </resources>
